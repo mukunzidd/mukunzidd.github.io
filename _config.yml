@@ -1,0 +1,27 @@
+title: Dodo
+description: This is the place to be, to read curated posts by DoDo Mukunzi. I write about different cutting edge technologies like Angular2, Express, Node.JS, MongoDB, Ruby on Rails, Postgresql, HTML5, CSS3, Bootstrap, SASS, Pug Jade, and all the good stuff.
+
+url: https://github.com/mukunzidd
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: mukunzidd
+   twitter: mukunzidd
+   email: dmukunzi@gmail.com
+
+google_analytics: "UA-58263416-1"
