@@ -12,8 +12,7 @@ There are a few commands that are absolutely critical to your everyday usage of 
 
 - rails console
 - rails server
-- rake
-- rails generate
+- rake db:migrate
 - rails generate
 - rails new app_name
 
@@ -25,22 +24,31 @@ There are a few commands that are absolutely critical to your everyday usage of 
 Use this command in the terminal in a directory where you want create your new rails application.
 
 {% highlight rails %}
-dodo@dodo-HP-Notebook:~/rails$ rails c
-Loading development environment (Rails 5.0.1)
-irb(main):001:0> 
-{% endhighlight %}
-
-
-##### rails console or rails c
-
-Rails is awesome guys it even provide shorthand for most of the commands, _did you notice railss c can be used in place of rails console?_. Okay, enough of me talking! Use this command to get into the rials console where you can test your code. This is where the magic happens.
-
-{% highlight rails %}
 rails new your_app_name
 {% endhighlight %}
 
+##### bundle install or just bundle
 
-##### rails generate or rails g 
+Rails is awesome guys it even provide shorthand for most of the commands, _did you notice railss c can be used in place of rails console?_. Okay, enough of me talking! 
+
+Use this command in the terminal in a directory where you created your new rails application to install rails dependencies defined in the Gemfile at the root of your application.
+
+{% highlight rails %}
+bundle install
+{% endhighlight %}
+
+You can run <code>bundle check</code> to check if you have installed all of your dependecies.
+
+{% highlight rails %}
+bundle check
+{% endhighlight %}
+
+_If you have run bundle install with success you will see this message_
+{% highlight rails %}
+The Gemfile's dependencies are satisfied
+{% endhighlight %}
+
+##### rails generate or just rails g
 
 Use this command inside the directory of your application. This is the command that triggers rails generator to create files and folders as you instructed. This command is used for a variety of awesome rails features like generating: a controller, a model, a scaffold, and so on. 
 
@@ -61,6 +69,39 @@ rails g scaffold ScaffoldName attribute:type attribute:type
 _Always remember to run <code>rake db:migrate</code>  everytime 	        you generate a model or a scaffold in order to add your      model to whatever the database you are using._
 
 
+##### rails console or rails c
+
+Use this command to get into the rials console where you can test your code. This is where the magic happens.
+
+{% highlight rails %}
+dodo@dodo-HP-Notebook:~/rails$ rails c
+Loading development environment (Rails 5.0.1)
+irb(main):001:0> 
+{% endhighlight %}
 
 
-Check out the [Rails Command Line Docs](http://guides.rubyonrails.org/v3.2/command_line.html).
+
+##### rails server or rails s
+
+Run this command in order to run the rails server. If you didn't mess up with the rials configuration file, you will be able to view your app on [http://localhost:3000].
+{% highlight rails %}
+dodo@dodo-HP-Notebook:~/rails/ rails s
+=> Booting Puma
+=> Rails 5.0.1 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.6.2 (ruby 2.3.3-p222), codename: Sleepy Sunday Serenity
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+{% endhighlight %}
+
+_If you see this open browser to localhost:3000 and Voila!_
+
+
+
+
+
+
+Check out the official [Rails Command Line Docs](http://guides.rubyonrails.org/v3.2/command_line.html) for more commands and detailed usage.
