@@ -8,26 +8,24 @@ date:   2017-01-21
 
 When building web applications with Ruby on Rails, it is of great importance that you get familiar with the most important _Rails Command Line Commands_ that you are going to using almost in all projects.
 
-There are a few commands that are absolutely critical to your everyday usage of Rails. In the order of how much you’ll probably use them are:
+There are a few commands that are absolutely critical to your everyday usage of Rails. In the order of how much I use them are:
 
 - rails console
 - rails server
 - rake
 - rails generate
-- rails dbconsole
+- rails generate
 - rails new app_name
 
 
-##
+## My Favorite Usage
 
+### rails new you_app_name
 
-Jekyll also offers powerful support for code snippets:
+Use this command in the terminal in a directory where you want create your new rails application.
 
 {% highlight rails %}
-	rails new your_app
+rails new your_app_name
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Check out the [Rails Command Line Docs]().
