@@ -20,7 +20,7 @@ There are a few commands that are absolutely critical to your everyday usage of 
 
 ## My Favorite Usage
 
-### rails new you_app_name
+##### rails new you_app_name
 
 Use this command in the terminal in a directory where you want create your new rails application.
 
@@ -28,4 +28,4 @@ Use this command in the terminal in a directory where you want create your new r
 rails new your_app_name
 {% endhighlight %}
 
-Check out the [Rails Command Line Docs]().
+Check out the [Rails Command Line Docs](http://guides.rubyonrails.org/v3.2/command_line.html).
