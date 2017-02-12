@@ -4,12 +4,16 @@ title:  "Keep On Hacking"
 date:   2017-01-01
 ---
 
-<p class="intro"><span class="dropcap">H</span>appy new year my friends. This is the beginning of a new year and we have to keep on hacking. I want to talk to you about how to keep your learning to code a pleasant experience in 2017.</p>
+<p class="intro"><span class="dropcap">H</span>appy new year my friends. This is the beginning of a new year and we have to keep on hacking. What I mean by that is to never stop. Never stop learning, never stop building projects, never stop coding. It may be true that you struggle a lot to get a grasp on different important objects, but it's the only way to go.</p>
 
 <img src="{{ '/assets/img/setup.jpg' | prepend: site.baseurl }}" alt=""> 
 
-Have you ever heard of Pomodoro Clock?... I know what you're thinking, read on...
+As you code along, you will get frustrated, you will get stuck, you will write thousands of bugs, but the important thing is to keep going. 
 
-Based on thousands of developers experience with teaching yourself how to code, the POMODORO style of learning has proven itself to be of the best approach to be productive and learn at maximum capacity all day through.
+Have you ever heard of Pomodoro Clock?... Stay tuned for February episodes for the **_Pomodoro_** technique of learning and some good **_ruby series_**.
+
+***
+
+_Keep on hacking!_
 
 

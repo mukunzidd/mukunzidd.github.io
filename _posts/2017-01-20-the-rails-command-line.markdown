@@ -4,7 +4,7 @@ title:  "The Rails Command Line"
 date:   2017-01-21
 ---
 
-<p class="intro"><span class="dropcap">R</span>ails is on of the popular fullstack web framework. Rails is powered by <a href="https://www.ruby-lang.org/en/">Ruby</a> programming language, which known to be built with the programmer in mind.</p>
+<p class="intro"><span class="dropcap">R</span>ails is on of the popular fullstack web framework. Rails is powered by <a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a> programming language, which known to be built with the programmer in mind.</p>
 
 When building web applications with Ruby on Rails, it is of great importance that you get familiar with the most important _Rails Command Line Commands_ that you are going to using almost in all projects.
 

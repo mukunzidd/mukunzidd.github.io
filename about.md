@@ -15,9 +15,9 @@ title: About DoDo Mukunzi
 
   <h2>Present</h2>
 
-    <p>I am taking part in a training by <a href="http://http://anyonecanlearntocode.com/">Actualize Bootcamp</a> that is taking place in Kigali, Rwanda.</p>
+    <p>I am taking part in a training by <a href="http://http://anyonecanlearntocode.com/" target="_blank">Actualize Bootcamp</a> that is taking place in Kigali, Rwanda.</p>
 
-    <p>Well, you may think I lied about teaching myself how to code, but it is true that a good programmer is a learner himself. We will be spending 12 weeks straight with our instructor <a href="http://markeban.com/">Mark</a> who is doing a great job at getting us ready to be the best we've ever been.</p>
+    <p>Well, you may think I lied about teaching myself how to code, but it is true that a good programmer is a learner himself. We will be spending 12 weeks straight with our instructor <a href="http://markeban.com/" target="_blank">Mark</a> who is doing a great job at getting us ready to be the best we've ever been.</p>
 
 
   <h2>Future</h2>
